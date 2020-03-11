@@ -12067,11 +12067,6 @@ W = angled&lt;p&gt;
 </net>
 <net name="SWDRST" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="PB4"/>
-<wire x1="-276.86" y1="172.72" x2="-269.24" y2="172.72" width="0.1524" layer="91"/>
-<label x="-269.24" y="172.72" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="S1" gate="G$1" pin="2"/>
 <pinref part="U$7" gate="G$1" pin="NRST"/>
 <wire x1="-345.44" y1="226.06" x2="-342.9" y2="226.06" width="0.1524" layer="91"/>
@@ -12176,14 +12171,14 @@ W = angled&lt;p&gt;
 </net>
 <net name="SPI2_CS" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="PA7"/>
-<wire x1="-276.86" y1="210.82" x2="-269.24" y2="210.82" width="0.1524" layer="91"/>
-<label x="-269.24" y="210.82" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="M1" gate="G$1" pin="CSN"/>
 <wire x1="-406.4" y1="96.52" x2="-411.48" y2="96.52" width="0.1524" layer="91"/>
 <label x="-419.1" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="PB12"/>
+<wire x1="-276.86" y1="152.4" x2="-269.24" y2="152.4" width="0.1524" layer="91"/>
+<label x="-269.24" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
