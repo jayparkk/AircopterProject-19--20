@@ -103,6 +103,6 @@ int main()
 
         //    printf("%f %f %f %f %f %f %f %f %f\r\n" , accel.x, accel.y, accel.z, gyro.x, gyro.y, gyro.z, unfiltered.x, unfiltered.y, unfiltered.z);
 
-        wait(0.1); // 100 ms
+        wait(0.1); // 100 ms haha
     }
 }
